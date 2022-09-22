@@ -1,21 +1,5 @@
-[mywebservers]
+
 172.31.14.161
 172.31.14.185
 
 
-
-[myappservers]
-172.31.26.24
-172.31.14.18
-
-[myDBservers]
-172.31.26.240
-172.31.14.180
-
-
-
-
-[mywebservers:vars]
-var= value
-mywebpackonubuntu=nginx
-mywebpackonRedHot=httpd
