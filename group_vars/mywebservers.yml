@@ -1,4 +1,4 @@
 ---
 var: value
 mywebpackonubuntu: apache2
-mywebpackonRedHot: httpddddddd
+mywebpackonRedHot: httpd
