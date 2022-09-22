@@ -8,14 +8,14 @@
 172.31.26.24
 172.31.14.18
 
-[mydbservers]
+[myDBservers]
 172.31.26.240
 172.31.14.180
 
 
 
 
-[mywebservrs:var]
+[mywebservers:var]
 var= value
 mywebpackonubuntu=nginx
 mywebpackonRedHot=httpd
