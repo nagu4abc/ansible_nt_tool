@@ -1,0 +1,13 @@
+---
+-hosts: 172.31.14.161
+become: yes
+tasks:
+- name: install git
+  apt:
+   name: git
+   state: present
+tags: mygit
+
+
+
+
