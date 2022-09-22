@@ -1,7 +1,7 @@
 ---
--hosts: 172.31.14.161
-become: yes
-tasks:
+- hosts: 172.31.14.161
+  become: yes
+  tasks:
   - name: install git
     apt:
      name: git
@@ -13,4 +13,4 @@ tasks:
      name: tree
      state: present
     tags: mytree
-    
+
