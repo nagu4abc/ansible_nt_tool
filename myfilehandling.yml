@@ -3,7 +3,6 @@
   become: yes
   tasks:
   - name: create file
-  file:
-    path: /home/ubuntu
-    state: touch
-    
+    file:
+      path: /home/ubuntu
+      state: touch
