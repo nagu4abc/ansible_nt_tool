@@ -1,5 +1,7 @@
 ---
-- host: mywebservers
+- host: 172.31.14.185
+        172.31.14.161
+
   become: yes
   tasks:
   - name: install java on ubuntu nodes
