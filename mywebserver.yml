@@ -1,5 +1,5 @@
 ---
-- hosts: mywebservers
+- hosts: all
   become: yes
   tasks: 
   - name: i want to install webserver on ubuntu nodes
@@ -23,6 +23,6 @@
 
   - name: i want to start webservers on RedHat node
     service:
-      name: "{{mywebpackonredhat}}"
+      name: "{{mywebpackonRedHat}}"
       state: started
     when: ansible_os_family =="RedHat"
