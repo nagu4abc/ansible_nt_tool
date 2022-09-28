@@ -1,0 +1,14 @@
+---
+- name: add a login tomcat user
+  src: template/mytomuser.j2
+  dest: /opt/tomcat/conf/tomcat-users.xml
+
+- name: manager context has to change
+  template:
+    src: template/mytommanagercontext.j2
+    dest: /opt/tomcat/webapps/manager/META-INF/context.xml
+
+- name: host manager context has to change
+  template:
+    src: template/myhosttommanagercontext.j2
+    dest: /opt/tomcat/webapps/manager/META-INF/context.xml
