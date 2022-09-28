@@ -1,5 +1,5 @@
 ---
-- name: myappservers
+- name: [myappservers]
   become: yes
   roles:
-  -{role: mytomrole01,when: ansible_os_family=="Debian"}
+  -{role: mytomrole01,when: ansible_os_family =="Debian"}
