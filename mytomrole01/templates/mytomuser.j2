@@ -1,4 +1,6 @@
-
+  GNU nano 4.8                                                                   /opt/tomcat/conf/tomcat-users.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
   Licensed to the Apache Software Foundation (ASF) under one or more
   contributor license agreements.  See the NOTICE file distributed with
   this work for additional information regarding copyright ownership.
@@ -39,7 +41,7 @@
   <user username="robot" password="<must-be-changed>" roles="manager-script"/>
 -->
 <!--
-  The sample user and role entries below are intended for use with the
+ The sample user and role entries below are intended for use with the
   examples web application. They are wrapped in a comment and thus are ignored
   when reading this file. If you wish to configure these users for use with the
   examples web application, do not forget to remove the <!.. ..> that surrounds
@@ -56,6 +58,5 @@
 <user username="manager" password="manager_password" roles="manager-gui" />
 
 <role rolename="admin-gui" />
-<user username="maha" password="maha" roles="manager-gui,admin-gui" />
-</tomcat-users>
-                          
+<user username="admin" password="admin" roles="manager-gui,admin-gui" />
+`</tomcat-users>
